@@ -32,7 +32,7 @@ The models and underlying data must first be downloaded from the following locat
 
 https://figshare.com/articles/_Ring_Breaker_Neural_Network_Driven_Synthesis_Prediction_of_the_Ring_System_Chemical_Space/12366551
 
-These contents of these folders can be placed into data and models respectively.
+These contents of these folders must be placed into a data and models folder respectively in order for the notebook to work.
 
 
 ## Retraining 
