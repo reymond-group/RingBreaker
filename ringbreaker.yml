@@ -1,0 +1,16 @@
+name: ringbreaker
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy=1.18.1
+  - pandas=1.0.1
+  - rdkit=2019.09.3
+  - scikit-learn=0.22.1
+  - scipy=1.4.1
+  - swifter=0.302
+  - tensorflow=2.1.0
+  - pip:
+    - keras==2.3.1
+    - rdchiral==1.0.0
