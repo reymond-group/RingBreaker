@@ -45,4 +45,4 @@ This yield a series of .npz files containin the training, validation, and test d
 
 The model can be trained by running the following command from the training folder:
 
-`python ringbreaker_training.py trin ../data/uspto/uspto_ringbreaker_training_inputs.npz -trout ../data/uspto/uspto_ringbreaker_training_labels.npz -vain ../data/uspto/uspto_ringbreaker_validation_inputs.npz -vaout ../data/uspto/uspto_ringbreaker_validation_labels.npz -od ../models/ -of uspto_ringbreaker -b 256 -e 200 -m 3 -fp 2048` 
+`python ringbreaker_training.py -trin ../data/uspto/uspto_ringbreaker_training_inputs.npz -trout ../data/uspto/uspto_ringbreaker_training_labels.npz -vain ../data/uspto/uspto_ringbreaker_validation_inputs.npz -vaout ../data/uspto/uspto_ringbreaker_validation_labels.npz -od ../models/ -of uspto_ringbreaker -b 256 -e 200 -m 3 -fp 2048` 
